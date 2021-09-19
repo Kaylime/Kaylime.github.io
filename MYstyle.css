@@ -1,0 +1,20 @@
+body {
+background-color: lightblue;
+color: brown;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding: 10px
+}
+
+head {
+text-align: center;
+background-color: brown;
+color: lightblue;
+}
+
+footer {
+background-color: brown;
+}
+
+img {
+align-items: stretch;
+}
