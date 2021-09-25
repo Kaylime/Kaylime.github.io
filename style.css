@@ -13,7 +13,6 @@ html {
     grid-template-rows: auto;
     grid-auto-flow: dense;
     grid-gap: 10px;
-    line-height:27px;
 	margin: 0 200px;
     background-color: paleturquoise;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -29,26 +28,27 @@ h1 {
 }
 
 h2 {
-    font-size: 50px;
-}
-
-h3 {
     font-size: 40px;
 }
 
-h4 {
+h3 {
     font-size: 30px;
 }
 
-h5 {
+h4 {
     font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+    color: wheat;
 }
 
 .title {
     grid-column: span;
     text-align: center;
     background-color: saddlebrown;
-
+    color: wheat;
 }
 
 .info {
@@ -78,7 +78,7 @@ h5 {
 }
 
 .directions{
-    grid-column: 2/span ;
+    grid-column: 1/span ;
     margin: 5px;
     padding: 20px;
 }
