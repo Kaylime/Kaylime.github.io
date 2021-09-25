@@ -1,7 +1,3 @@
-img {
-align-items: stretch;
-}
-
 html {
     box-sizing: border-box;
 }
@@ -10,36 +6,46 @@ html {
     box-sizing: inherit;
 }
 
-.container {
-	line-height:27px;
-	margin: 0 200px;
-    background-color: lightblue;
-    color: brown;
-}
-
 .container  {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-auto-flow: dense;
     grid-gap: 10px;
+    line-height:27px;
+	margin: 0 200px;
     background-color:lightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
 
 }
 
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 10px;
     background-color:saddlebrown;
     color:wheat;
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 30px;
 }
 
 h5 {
     background-color: rgb(161, 154, 149);
     color: wheat; 
+    font-size: 20px;
 }
 
-.title {
+header {
     grid-column: span;
     text-align: center;
 
@@ -51,10 +57,11 @@ h5 {
     padding: 20px;
 }
 
-.image {
+.img {
     grid-column: 1/span ;
     margin: 5px;
     padding: 20px;
+    align-items: stretch;
 }
 
 
