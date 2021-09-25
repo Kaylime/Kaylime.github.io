@@ -1,18 +1,3 @@
-body {
-background-color: lightblue;
-color: brown;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-padding: 10px
-}
-
-head {
-text-align: center;
-background-color: brown;
-color: lightblue;
-}
-
-
-
 img {
 align-items: stretch;
 }
@@ -26,7 +11,10 @@ html {
 }
 
 .container {
-
+	line-height:27px;
+	margin: 0 200px;
+    background-color: lightblue;
+    color: brown;
 }
 
 .container  {
@@ -39,6 +27,13 @@ html {
 
 }
 
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    background-color: brown;
+    color: tan;
+}
+
 .title {
     grid-column: 1/span 2;
 }
@@ -48,41 +43,45 @@ html {
 }
 
 .image {
-    grid-column: /span 2;
+    grid-column: 1/span ;
 }
 
 .brownie {
+    grid-column: 1/span ;
+}
 
+.brownies {
+    grid-column: 1/span ;
 }
 
 .ingren1 {
-
+    grid-column: 1/span 1;
 }
 
 .direct1 {
-
+    grid-column: 2/span ;
 }
 
 .needs1 {
-
+    grid-column: 1/span 1;
 }
 
 .directions{
-
+    grid-column: 2/span ;
 }
 
 .frosting {
-
+    grid-column: 1/span ;
 }
 
 .ingren2 {
-
+    grid-column: 1/span 1;
 }
 
 .direct2 {
-
+    grid-column: 1/span ;
 }
 
 .needs2 {
-
+    grid-column: 1/span ;
 }
