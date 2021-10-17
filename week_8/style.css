@@ -33,6 +33,7 @@ h1 {
     background-color:saddlebrown;
     color: lightblue;
     font-size: 60px;
+    text-align: center;
 }
 
 h2 {
@@ -51,6 +52,8 @@ h4 {
 h5 {
     font-size: 18px;
     color:lightblue;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .title {
