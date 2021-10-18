@@ -63,18 +63,17 @@ h5 {
 .title {
     grid-column: span;
     text-align: center;
-    background-color: saddlebrown;
     color: lightblue;
 }
 
 .info {
-    grid-column: 3/span 3;
+    grid-column: 3/span;
     margin: 5px;
     padding: 20px;
 }
 
 .img {
-    grid-column: 1/span ;
+    grid-column: span;
     margin: 5px;
     padding: 20px;
     align-items: stretch;
@@ -82,7 +81,7 @@ h5 {
 
 
 .brownies {
-    grid-column: 1/span;
+    grid-column: span;
     margin: 5px;
     padding: 20px;
 }
