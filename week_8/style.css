@@ -9,7 +9,6 @@ html {
 
 #container  {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-auto-flow: dense;
     grid-template-rows: auto;
     grid-gap: 10px;
@@ -28,7 +27,7 @@ img {
     height: 100%;
 }
 
-header {
+.header {
     background-color:saddlebrown;
     padding: 60px;
 }
