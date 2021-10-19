@@ -32,6 +32,8 @@ img {
     padding: 60px;
 }
 
+a:hover{background-color: saddlebrown; color: lightblue;}
+
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: lightblue;
@@ -101,7 +103,7 @@ h5 {
     padding: 20px;
 }
 
-a:hover{background-color: saddlebrown; color: lightblue;}
+
 
 
 /*------Media Queries------*/
